@@ -17,15 +17,17 @@ There are user defined functions as well as supplied functions by the language w
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-Simple Function in CPP
+Settig up Project for Simple Function in CPP.
 
-Open up Visual Studio 19 Community or xcode. You should see a screen like this. Click on the Create a New Project button:
+ Open up [Visual Studio 19 Community](https://visualstudio.microsoft.com/downloads/) and you should be able to login with your LSU credentials. You should see a screen like this. Click on the **Create a New Project** button:
 
-![vs editor](images/image_01.png)
+![vs editor](images/image_01.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+Select a **Console App** as we will only be working withing the console.
 
 ![alt_text](images/.png)
 
