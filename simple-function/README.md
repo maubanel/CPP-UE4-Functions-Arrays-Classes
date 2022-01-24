@@ -33,19 +33,25 @@ Lets now create a function. Now we have used functions before `main()` is a func
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now what happens if the `Sorry()` function is placed AFTER the `Main()` function? Try it and press the **Run** button:
+
+![alt_text](images/MoveSorryToBottom.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now the build won't compile or run. If you look at the bottom you should see an **Output** tab that has 0 succeeded builds and 1 file that failed to compile. You get an error message asking if you want to run the previous build. Press the **No** button.
+
+![alt_text](images/CompileErrorUndefFunct.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+Now you can see in the bottom tab an error list where it can't find the identifier on line 11 in the FunctionTemplatesClasses.cpp file. The compiler does not kow that the function exists when it gets to it and we need to declare it first (even before it is defined).
+
+![alt_text](images/SorryNotFoundError.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
