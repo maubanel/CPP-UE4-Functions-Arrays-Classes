@@ -19,14 +19,15 @@ A function has three components. We start with `ReturnType` then we have the nam
 
 Lets now create a function. Now we have used functions before `main()` is a function that visual studio runs first by default. We can also define a new function. In this case we defined a new function that returns no value (it is void). Next run the game to see what happens.
 
-
 ![alt_text](images/BasicFunctionVoid.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+ Run the game and `Main()` runs and calls the function. The function just prints **Sorry!** to the console.
+
+![alt_text](images/SorryMessageRunning.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 

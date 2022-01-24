@@ -15,7 +15,7 @@ In this tutorial we will look at functions, arrays and classes in UE4 & C++.
 
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
 
-<kbd></kbd> &nbsp;&nbsp; [Basic Function](simple-function/README.md#user-content-basic-function) <br>
+<kbd></kbd> &nbsp;&nbsp; [Simple Function](simple-function/README.md#user-content-simple-function) <br>
 
 <!-- LICENSE -->
 ## License
