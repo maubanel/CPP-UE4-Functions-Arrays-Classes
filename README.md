@@ -21,8 +21,9 @@ In this tutorial we will look at functions, arrays and classes in UE4 & C++.
 
 <kbd></kbd> &nbsp;&nbsp; [Functions in Blueprints](functions-bp/README.md#user-content-functions-in-blueprints) <br>
 
-
 <kbd></kbd> &nbsp;&nbsp; [Edge Case](edge-case/README.md#user-content-edge-case) <br>
+
+<kbd></kbd> &nbsp;&nbsp; [CPP in UE4 Function](cpp-ue4/README.md#user-content-cpp-in-ue4) <br>
 
 <!-- LICENSE -->
 ## License
