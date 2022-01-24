@@ -31,6 +31,8 @@ In this tutorial we will look at functions, arrays and classes in UE4 & C++.
 
 <kbd></kbd> &nbsp;&nbsp; [Const](const/README.md#user-content-const) <br>
 
+<kbd></kbd> &nbsp;&nbsp; [Static Arrays](static-arrays/README.md#user-content-static-arrays) <br>
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
