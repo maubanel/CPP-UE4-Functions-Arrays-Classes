@@ -27,6 +27,8 @@ In this tutorial we will look at functions, arrays and classes in UE4 & C++.
 
 <kbd></kbd> &nbsp;&nbsp; [Function CPP and BP](cpp-bp/README.md#user-content-function-cpp-bp) <br>
 
+<kbd></kbd> &nbsp;&nbsp; [Macros](cpp-bp/README.md#user-content-function-macros) <br>
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
