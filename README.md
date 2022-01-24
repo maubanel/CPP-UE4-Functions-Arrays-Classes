@@ -19,7 +19,7 @@ In this tutorial we will look at functions, arrays and classes in UE4 & C++.
 
 <kbd></kbd> &nbsp;&nbsp; [Function with Return](function-return/README.md#user-content-function-with-return) <br>
 
-<kbd></kbd> &nbsp;&nbsp; [Function in Blueprints](functions-bp/README.md#user-content-function-in-blueprints) <br>
+<kbd></kbd> &nbsp;&nbsp; [Functions in Blueprints](functions-bp/README.md#user-content-functions-in-blueprints) <br>
 
 <!-- LICENSE -->
 ## License
