@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Now classes are rarely used as just a plain class.  We normally create different types and inherit from other classes.  Lets look at enemies in a game.  What if we have 10 enemy types in the game.  They might all share some of the same features that they all have in common.  We can create an `Enemy` class with all the common elements.  Then we can create a specific enemy such as a `Bear` that inherits from the enemy class.  We can give it its unique parts that make up a bear that might be unique like claws, a head etc.  We might even have an intermediate class of `Mammals` or `Quadripeds` that again can define an enemy -> mammal -> bear.  This can allow us to check in the game for collisions with the enemy class, then downcast and find out what type of enemy it is.
 
 <br>
 
@@ -15,17 +15,23 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+Open up the **FunctionTemplateClasses** solution you have been working on.  Lets add a new project by right clicking on the solution file and select **Add \| New Project...**.  Select a **Console App** template and call this new project `ClassInheritanceCasting`. Right click on this new project and select **Set as StartUp Project**.
+
+![alt_text](images/CreateNewCosoleApo.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+We have here a very simple example.  We have a parent class called `Enemy`.  All our enemies have one head, so we set this variable here.  There is no name for this enemy as it is meant to be derived, so the name of the monster is left blank. We have an `Aligator` and `Lion` derived class from `Enemy`.  In main we show that you can access members from both the derived (child class) and the parent class.
+
+![alt_text](images/ClassInheritance.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now compile and run and you can see that both members are accessible.
 
 ![alt_text](images/.jpg)
 
@@ -33,110 +39,56 @@ Chapter introduction here.
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+![alt_text](images/DerivedClassInGame.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+We cast up to the base class from the derived class.  We need to use pointers to do this.  So we can cast from the derived class `Lion` to a pointer to the class it is derived from `Enemy`.  This is an implicit cast.  We can just point to one of its parent classes.
+
+![alt_text](images/BaseClassCast.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Lets run and see what it prints for the name? Even though we set the **Name** member inside the derived class it was declared in the base class so this i
+
+![alt_text](images/UpcastPrint.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Lets add a public member to the derived classes and print both an **Aligator** and **Lion** class.
+
+![alt_text](images/DowncastingPointers.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now run it and you can see that we can access this new member in the derived class.
+
+![alt_text](images/DowncastPointerSeesName.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now run it and you can see that we can access this new member in the derived class.
+
+![alt_text](images/DowncastPointerSeesName.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`SPCRK`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Now run in the pointer to the base class you are not able to access the derived **Feature** member.  This is stored in the derived class only.<br><br>This is enough for all and we will explore class construction more later on.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![alt_text](images/BaseCantAccessDerivedMember.jpg)
 
-##### `Step 11.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-
-##### `Step 12.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 13.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 14.`\|`SPCRK`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 15.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 16.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 17.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 18.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 19.`\|`SPCRK`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 20.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
 
 ___
 
