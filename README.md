@@ -35,7 +35,7 @@ In this tutorial we will look at functions, arrays and classes in UE4 & C++.
 
 <kbd></kbd> &nbsp;&nbsp; [Containers](containers/README.md#user-content-containers) <br>
 
-<kbd></kbd> &nbsp;&nbsp; [TArray](tarray-ii/README.md#user-content-tarray) <br>
+<kbd></kbd> &nbsp;&nbsp; [TArray](tarray/README.md#user-content-tarray) <br>
 
 <!-- LICENSE -->
 ## License
