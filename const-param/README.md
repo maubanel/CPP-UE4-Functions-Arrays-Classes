@@ -6,7 +6,8 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+## Const Vector and Pointer
+Now what if I want to pass a large file and not have it changed by the function I am passing the value to.  How do I do this with using pass by refeerence and pass by pointer?  This is where `const` comes in handy.  We can define a parameter as `const` so that the function we are passing it to can't change the value.
 
 <br>
 
@@ -15,19 +16,25 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`SPCRK`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+If you start your reference or pointer parameter with `const` the original variable that it is referencing or pointing to can not be changed.  Add `const` to the parameters and lets create a new function called `Print()` to test this out on.
+
+![alt_text](images/PassVectorAsConst.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Compile and run the application and you see that it prints out the vector from by passing by **const reference**.
+
+![alt_text](images/PassConstVector.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now lets test whether `const` works.  Try to add an element at the end of the array and press compile iside the `Print()` function.  Try it and see the compile error:
+
+![alt_text](images/FunctionCantChangeValue.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
