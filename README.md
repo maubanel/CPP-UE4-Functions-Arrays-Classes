@@ -42,6 +42,9 @@ In this tutorial we will look at functions, arrays and classes in UE4 & C++.
 <kbd></kbd> &nbsp;&nbsp; [Function Scope](function-scope/README.md#user-content-function-scope) <br>
 
 <kbd></kbd> &nbsp;&nbsp; [Const Reference and Pointer](const-param/README.md#user-content-const-reference-and-pointer) <br>
+
+<kbd></kbd> &nbsp;&nbsp; [Classes](classes/README.md#user-content-const-classes) <br>
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
