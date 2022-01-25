@@ -68,10 +68,6 @@ Now save your work, go to the game and press the compile button (you can't compi
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now there is a shuffle blueprint node but not an equivalent C++ class.  We can come back to this and write our own later on.  For now we will leave the UE4 dynamic array implentation here.  Lets move on and look at classes.
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 

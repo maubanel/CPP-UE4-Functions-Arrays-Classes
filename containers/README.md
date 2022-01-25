@@ -184,6 +184,13 @@ One of the advantages of using a container is that we can add dynamically to the
 
 ![alt_text](images/AddCardsToDeck.jpg)
 
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 22.`\|`SPCRK`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Compile and run the game.  Now shuffling happens after we add the second card so the entire deck is now shuffled.
+
+![alt_text](images/TwoCardsRunning.jpg)
 ___
 
 
