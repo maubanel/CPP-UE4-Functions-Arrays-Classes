@@ -17,7 +17,7 @@ Now we need to look at how data is moved around when calling functions in C++.  
 
 So what happens when I pass a variable as a parameter to another function.  Is the function reading the memory from the same variable?  If so then if we call this function the parameter we pass should be changed.  Lets try it out:
 
-![alt_text](images/PassByValue.jpg.jpg)
+![alt_text](images/PassByValue.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -25,7 +25,7 @@ So what happens when I pass a variable as a parameter to another function.  Is t
 
 When we run it notice that the parameter is not affected it stays negative.  The program makes a copy of `Num` when it passes it to this function.  Now this isn't bad, but what if this was a data structure with all the points in a 3-D model that is 100 megabytes?  It would have to take an extra 100 megabytes of memory when it is passed to the function.  This would be slow and ineficient. 
 
-![alt_text](images/ExecutePassByValue.jpg.jpg)
+![alt_text](images/ExecutePassByValue.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -39,7 +39,7 @@ There are two solutions to passing around larger data structures.  We can use **
 
 We declare a variable to be a reference by putting an `&` after the type when a variable or object is initialized. This reference is identical to using the original variable.  
 
-![alt_text](images/AbsoRNum.jpg.jpg)
+![alt_text](images/AbsoRNum.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
