@@ -116,7 +116,7 @@ So how can we see the original value of what this memory is pointing to?  There 
 
 Now compile and run and notice that we no longer see what ther variable actually holds (a memory address) but we see the underlying data that is inside that memory location.
 
-![alt_text](images/DereferencedVariableRun.jpg.jpg)
+![alt_text](images/DereferencedVariableRun.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
