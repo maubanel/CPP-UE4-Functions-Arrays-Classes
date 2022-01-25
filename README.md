@@ -45,6 +45,8 @@ In this tutorial we will look at functions, arrays and classes in UE4 & C++.
 
 <kbd></kbd> &nbsp;&nbsp; [Classes](classes/README.md#user-content-const-classes) <br>
 
+<kbd></kbd> &nbsp;&nbsp; [Classes II](classes-ii/README.md#user-content-const-classes-ii) <br>
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information: [link](LICENSE).
