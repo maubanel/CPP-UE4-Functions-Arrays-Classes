@@ -40,37 +40,49 @@ Now lets test whether `const` works.  Try to add an element at the end of the ar
 
 ##### `Step 4.`\|`SPCRK`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Remove `const` from the `Print()` function and it now compiles and allows you to change the vector passes by reference.
+
+![alt_text](images/ItCompilesWithoutConst.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`SPCRK`| :small_orange_diamond:
 
-![alt_text](images/.jpg)
+We can do exactly the same thing with pointers.  Change the `Print()` to pass by pointer.  You will need to pass it the address of the vector (the name with the address `&` symbol before).  You will also need to dereference the pointer in the for loop.  Lets start by not setting it as `const`. Now to dereference the pointer and select `push_back` is pretty complex looking.  We need to dereference the pointer to dot instance into the function.
+
+![alt_text](images/DereferencePointerDotReference.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+There is an easier shortcut to represent exactly the same thing.  To dererence a pointer and access its members can be done simply by instead using `->`.  Now change it to:
+
+![alt_text](images/PushBackWith->.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Run the project and you should now see a `2` added to the end of the TArray.
+
+![alt_text](images/TwoAddedToArray.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now change the pointers to `const` and it will no longer compile.
+
+![alt_text](images/ConstPointer.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`SPCRK`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Pointers are tricky as you can also put the `const` after the pointer.  This means that you still can alter the value it is pointing to, but you can't change the memory address that the pointer is pointing to.  Line 19 would be legal and valid if you didn't have `const` after the pointer.  Be aware and pay attention on where the pointer is located. Next up we will look at classes.
+
+![alt_text](images/ConstMemoryP.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
